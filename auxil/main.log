@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.19)  22 MAY 2023 22:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.19)  24 MAY 2023 20:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -250,6 +250,8 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 -dm.def
 File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear-ibid.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count319
@@ -361,12 +363,19 @@ File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 \biburllcskip=\muskip21
 \c@smartand=\count395
 )
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'authoryear-ibid'...
+Package biblatex Info: ... file 'authoryear-ibid.bbx' found.
 
 (C:\Users\linus.lundqvist2\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx
-\numeric.bbx
-File: numeric.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+\authoryear-ibid.bbx
+File: authoryear-ibid.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+(C:\Users\linus.lundqvist2\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx
+\authoryear.bbx
+File: authoryear.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
@@ -375,24 +384,20 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count396
 \c@bbx:relatedtotal=\count397
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
+)))
+Package biblatex Info: Trying to load citation style 'authoryear-ibid'...
+Package biblatex Info: ... file 'authoryear-ibid.cbx' found.
 
 (C:\Users\linus.lundqvist2\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx
-\numeric.cbx
-File: numeric.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
+\authoryear-ibid.cbx
+File: authoryear-ibid.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -565,24 +570,24 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
  (C:/Webb\PM-Energi\auxil\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 (C:\Users\linus.lundqvist2\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\
 supp-pdf.mkii
@@ -622,21 +627,21 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
+Package biblatex Info: ... file 'main.bbl' found.
+ (C:/Webb\PM-Energi\auxil\main.bbl)
+Package biblatex Info: Reference section=0 on input line 19.
+Package biblatex Info: Reference segment=0 on input line 19.
+Package hyperref Info: Link coloring OFF on input line 19.
 
-No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 14.
-Package biblatex Info: Reference segment=0 on input line 14.
-Package hyperref Info: Link coloring OFF on input line 14.
 (C:/Webb\PM-Energi\auxil\main.out) (C:/Webb\PM-Energi\auxil\main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<NTI Gymnasiet_Symbol_print_svart.png, id=19, 208.78pt x 184.69pt>
+<NTI Gymnasiet_Symbol_print_svart.png, id=15, 208.78pt x 184.69pt>
 File: NTI Gymnasiet_Symbol_print_svart.png Graphic file (type png)
 <use NTI Gymnasiet_Symbol_print_svart.png>
 Package pdftex.def Info: NTI Gymnasiet_Symbol_print_svart.png  used on input li
-ne 38.
+ne 43.
 (pdftex.def)             Requested size: 143.9978pt x 127.3883pt.
  [1
 
@@ -650,55 +655,59 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50     \newpage
+l.55     \newpage
                   [1]
-Underfull \hbox (badness 10000) in paragraph at lines 57--61
+Underfull \hbox (badness 10000) in paragraph at lines 62--66
 
  []
 
 
-Overfull \hbox (10.1106pt too wide) in paragraph at lines 61--63
+Overfull \hbox (10.1106pt too wide) in paragraph at lines 66--68
 \OT1/cmr/m/n/10.95 K^^?arnkraft p^^Waverkar b^^Wade lokalt och glob-alt milj^^?
 on rel-a-tivt lite i j^^?amf^^?orelse
  []
 
-[2]
-Overfull \hbox (43.40814pt too wide) in paragraph at lines 71--74
-[]$\OT1/cmtt/m/n/10.95 https : / / www . naturskyddsforeningen . se / faktablad
- / hur-[]fungerar-[]karnkraft/$[] 
+
+Overfull \hbox (24.95389pt too wide) in paragraph at lines 66--68
+\OT1/cmr/m/n/10.95 ddsver-ket ([]https://www.naturskyddsforeningen.se/faktablad
+/hur-fungerar-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--74
-
+[2]
+Overfull \hbox (38.91518pt too wide) in paragraph at lines 80--80
+[][]\OT1/cmr/m/n/10.95 https://www.naturskyddsforeningen.se/faktablad/hur-funge
+rar-karnkraft/ (May 18,
  []
 
 [3] (C:/Webb\PM-Energi\auxil\main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 385E68654048FB0C7DC7AD55F18134E1;417.
+(rerunfilecheck)             Checksum: C10100925BCFA3817A817BC91EFF5356;324.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16073 strings out of 476339
- 286821 string characters out of 5782927
- 1858340 words of memory out of 5000000
- 36332 multiletter control sequences out of 15000+600000
- 518598 words of font info for 54 fonts, out of 8000000 for 9000
+ 16335 strings out of 476339
+ 292519 string characters out of 5782927
+ 1859340 words of memory out of 5000000
+ 36583 multiletter control sequences out of 15000+600000
+ 519245 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,5n,68p,679b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,5n,68p,679b,1529s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/linus.lundqvist2/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmbx10.pfb><C:/Users/linus.lundqvist2/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/linus.lundqvist2/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/linus.lu
-ndqvist2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
-><C:/Users/linus.lundqvist2/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr17.pfb><C:/Users/linus.lundqvist2/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on C:/Webb\PM-Energi\out\main.pdf (4 pages, 99464 bytes).
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/linus.
+lundqvist2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.p
+fb><C:/Users/linus.lundqvist2/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr12.pfb><C:/Users/linus.lundqvist2/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/linus.lundqvist2/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/linus.lu
+ndqvist2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b>
+Output written on C:/Webb\PM-Energi\out\main.pdf (4 pages, 124937 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 30 words of extra memory for PDF output out of 10000 (max. 10000000)
 

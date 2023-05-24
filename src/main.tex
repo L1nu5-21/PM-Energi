@@ -7,7 +7,12 @@
 % Packages
 \usepackage{amsmath}
 \usepackage{graphicx}
-\usepackage{biblatex}
+\usepackage[
+    backend=biber,
+    style=authoryear-ibid,
+    sorting=ynt
+]{biblatex}
+\addbibresource{mall.bib}
 \usepackage{hyperref}
 
 % Document
@@ -55,11 +60,11 @@
     \subsection{frågeställningar}
     \begin{enumerate}
         \item Hur fungerar ett kärnkraftverk?\\
-        Kärnkraft kommer i två varianter, fission och fusion, fission bygger på att man skjuter protoner på störe atomer, vanligast Uranium och Plutonium, vilket påbörjar kedjereaktion där denna process fortsätts av sig själv.\\
+        Kärnkraft kommer i två varianter, fission \parencite{Fission} och fusion \parencite{Fusion} , fission bygger på att man skjuter protoner på störe atomer, vanligast Uranium och Plutonium, vilket påbörjar kedjereaktion där denna process fortsätts av sig själv.\\
         \\
-        Fussion på andra sidan är teoretisk talat en potensiell möjlighet i framtiden, i denna process så slår man ihop atomer av mindre storlek för att bilda störe ämnen, genom denna process frigörs energi som går gynna oss av like fission. Detta sagt dock så är denna teknik fortfarande endast inom teorins värld när det kommer till måls att utvinna energi ur processen.
+        Fussion på andra sidan är teoretisk talat en potensiell möjlighet i framtiden, Wikipedia \parencite{Fusion} beskriver att inom denna process så slår man ihop atomer av mindre storlek för att bilda störe ämnen, genom denna process frigörs energi som går gynna oss av like fission. Detta sagt dock så är denna teknik fortfarande endast inom teorins värld när det kommer till måls att utvinna energi ur processen.
         \item Vilka miljöpåverkan har ett kärnkraftverk lokalt och globalt?\\
-        Kärnkraft påverkar både lokalt och globalt miljön relativt lite i jämförelse med andra energival, detta utesluter då icke realistiska [event] som bör vara omöjliga för moderna designer. Med detta vill sägas, den miljö påverkan som kärnkraftverk direkt har på naturen är miniskyl. I åtanke av det hela perspektivet så har kärnkraft ett mycket störe påverkan på naturen, detta beror då mestadells av var bränslet skaffat.
+        Kärnkraft påverkar både lokalt och globalt miljön relativt lite i jämförelse med andra energival, detta utesluter då icke realistiska saker som bör vara omöjliga för moderna designer. Med detta vill sägas, Naturskyddsverket \parencite{Naturskyddsforeningen} påpekar att den miljö påverkan som kärnkraftverk direkt har på naturen är miniskyl. I åtanke av det hela perspektivet så har kärnkraft ett mycket störe påverkan på naturen, detta beror då mestadells av var bränslet skaffat.
         \item Hur påverkar kärnkraft samhället lokalt och globalt?\\
         Kärnkraftens effekt på samhället inom ett ekonomiskt perspektiv är av ett positivt slag, med tanke på hur det både skapar arbets möjligheter både i förebyggandet av kärnkraftverket, men också utöver kraftverkets livstid. Utöver ett politiskt perspektiv så är kärnkraft någonting av en tuff fråga, för medans metoderna som liger bakom energin i sig är relativt säker, framförandet av bränslet är dock det som liger i framkant för denna fråga.
     \end{enumerate}
@@ -67,9 +72,10 @@
     \section{Slutsatser}
     Kärnkraft är ett energival som, med de andra energivalen i åtanke, är av hög kvalite och relativt oreskabelt och neutralt mot naturen. Detta sagt dock så, använder sig kärnkraft sig av ett bränsle som inte föler det tidigare påståendet, dock detta kan och bör förbättras med tiden. Så som slutsats, Kärnkraft är bra men inte utan dess problem likt resten av energivalen.
 
-    \section{referenser}
-    \url{https://www.naturskyddsforeningen.se/faktablad/hur-fungerar-karnkraft/} \\
-    \url{https://sv.wikipedia.org/wiki/K%C3%A4rnkraftverk} \\
-    \url{https://sv.wikipedia.org/wiki/K%C3%A4rnkraft} \\
+    \printbibliography
+%    \section{referenser}
+%    \url{https://www.naturskyddsforeningen.se/faktablad/hur-fungerar-karnkraft/} \\
+%    \url{https://sv.wikipedia.org/wiki/K%C3%A4rnkraftverk} \\
+%    \url{https://sv.wikipedia.org/wiki/K%C3%A4rnkraft} \\
 
 \end{document}
